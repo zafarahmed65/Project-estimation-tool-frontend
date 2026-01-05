@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
-const BASE_URL = 'https://backend.initialscope.com/api/projects'
+const BASE_URL = 'https://3rad5w8lhe.execute-api.eu-north-1.amazonaws.com/api/projects'
 
 export const projectDetailApi = createApi({
     reducerPath: 'projectDetailApi',

@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 // const API_URL = "http://localhost:6000/api/auth";
-const API_URL = "https://backend.initialscope.com/api/auth";
+const API_URL = "https://3rad5w8lhe.execute-api.eu-north-1.amazonaws.com/api/auth";
 
 export const authApi = createApi({
     reducerPath: 'authApi',
